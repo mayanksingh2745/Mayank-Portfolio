@@ -534,8 +534,11 @@ export const siteContent: SiteContent = {
   poseOffsets: {
     "pose-portrait": { offsetX: 0, offsetY: 0, scale: 1, tiltDeg: 0 },
     "pose-laptop": { offsetX: 0, offsetY: 0, scale: 1, tiltDeg: 0 },
+    "pose-experience": { offsetX: 0, offsetY: 0, scale: 1, tiltDeg: 0 },
     "pose-reading": { offsetX: 0, offsetY: 0, scale: 1, tiltDeg: 0 },
     "pose-present": { offsetX: 0, offsetY: 0, scale: 1, tiltDeg: 0 },
+    "pose-about": { offsetX: 0, offsetY: 0, scale: 1, tiltDeg: 0 },
+    "pose-credentials": { offsetX: 0, offsetY: 0, scale: 1, tiltDeg: 0 },
     "pose-wave": { offsetX: 0, offsetY: 0, scale: 1, tiltDeg: 0 },
   },
 
@@ -560,7 +563,7 @@ export const siteContent: SiteContent = {
       id: "experience",
       number: "03",
       label: "Experience",
-      poseKey: "pose-laptop",
+      poseKey: "pose-experience",
       haloColor: "#FF5B2E", // Tomato
       giantWord: "SHIPPED",
     },
@@ -584,7 +587,7 @@ export const siteContent: SiteContent = {
       id: "about",
       number: "06",
       label: "About",
-      poseKey: "pose-portrait",
+      poseKey: "pose-about",
       haloColor: "#8B5CFF", // Violet
       giantWord: "STORY",
     },
@@ -592,7 +595,7 @@ export const siteContent: SiteContent = {
       id: "credentials",
       number: "07",
       label: "Credentials",
-      poseKey: "pose-present",
+      poseKey: "pose-credentials",
       haloColor: "#D9B36A", // Gold
       giantWord: "CERTIFIED",
     },

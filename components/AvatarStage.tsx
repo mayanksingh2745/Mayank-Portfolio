@@ -12,8 +12,11 @@ interface AvatarStageProps {
 const POSE_KEYS = [
   "pose-portrait",
   "pose-laptop",
+  "pose-experience",
   "pose-reading",
   "pose-present",
+  "pose-about",
+  "pose-credentials",
   "pose-wave",
 ] as const;
 
@@ -132,9 +135,8 @@ export const AvatarStage: React.FC<AvatarStageProps> = ({
             </div>
           )}
 
-          {/* 2. Terminal Look on Laptop (Experience Section) */}
-          {activePoseKey === "pose-laptop" &&
-            currentSec.id === "experience" && (
+          {/* 2. Terminal Look / Floating HUD (Experience Section) */}
+          {currentSec.id === "experience" && (
               <div
                 className="absolute left-[35%] bottom-[15%] md:bottom-[19%] w-[130px] md:w-[170px] p-2 rounded bg-[#0A0A0C]/95 border border-[#FF5B2E]/40 backdrop-blur-md shadow-[0_0_20px_rgba(255,91,46,0.3)] z-20 pointer-events-auto"
               >
