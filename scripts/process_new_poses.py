@@ -28,13 +28,7 @@ NEW_POSES = [
         "label": "About (Foundation / Story)",
         "halo_color": (139, 92, 255), # Violet #8B5CFF
     },
-    {
-        "raw_src": r"C:\Users\Mayank\.gemini\antigravity-ide\brain\2f551aa1-5abb-43e6-8561-9eee4e5bd7f7\pose_credentials_raw_1790628040325.jpg",
-        "saved_photo": "public/photos/pose-credentials-raw.jpg",
-        "key": "pose-credentials",
-        "label": "Credentials (Verified / Certifications)",
-        "halo_color": (217, 179, 106), # Gold #D9B36A
-    },
+
 ]
 
 def add_subtle_cinematic_grade(image: Image.Image) -> Image.Image:

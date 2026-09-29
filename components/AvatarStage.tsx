@@ -13,10 +13,10 @@ const POSE_KEYS = [
   "pose-portrait",
   "pose-laptop",
   "pose-experience",
+  "pose-projects",
   "pose-reading",
   "pose-present",
   "pose-about",
-  "pose-credentials",
   "pose-wave",
 ] as const;
 

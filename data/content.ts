@@ -535,10 +535,10 @@ export const siteContent: SiteContent = {
     "pose-portrait": { offsetX: 0, offsetY: 0, scale: 1, tiltDeg: 0 },
     "pose-laptop": { offsetX: 0, offsetY: 0, scale: 1, tiltDeg: 0 },
     "pose-experience": { offsetX: 0, offsetY: 0, scale: 1, tiltDeg: 0 },
+    "pose-projects": { offsetX: 0, offsetY: 0, scale: 1, tiltDeg: 0 },
     "pose-reading": { offsetX: 0, offsetY: 0, scale: 1, tiltDeg: 0 },
     "pose-present": { offsetX: 0, offsetY: 0, scale: 1, tiltDeg: 0 },
     "pose-about": { offsetX: 0, offsetY: 0, scale: 1, tiltDeg: 0 },
-    "pose-credentials": { offsetX: 0, offsetY: 0, scale: 1, tiltDeg: 0 },
     "pose-wave": { offsetX: 0, offsetY: 0, scale: 1, tiltDeg: 0 },
   },
 
@@ -571,7 +571,7 @@ export const siteContent: SiteContent = {
       id: "projects",
       number: "04",
       label: "Projects",
-      poseKey: "pose-present",
+      poseKey: "pose-projects",
       haloColor: "#7CE3B5", // Mint
       giantWord: "PROJECTS",
     },
@@ -595,7 +595,7 @@ export const siteContent: SiteContent = {
       id: "credentials",
       number: "07",
       label: "Credentials",
-      poseKey: "pose-credentials",
+      poseKey: "pose-present",
       haloColor: "#D9B36A", // Gold
       giantWord: "CERTIFIED",
     },
