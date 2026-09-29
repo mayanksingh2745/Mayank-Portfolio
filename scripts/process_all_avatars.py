@@ -17,14 +17,26 @@ POSES = [
     {
         "source": "public/photos/pose1-ch.png",
         "key": "pose-portrait",
-        "label": "Portrait (Hero / About)",
+        "label": "Portrait (Overview / Hero)",
         "halo_color": (217, 179, 106), # Gold #D9B36A
     },
     {
         "source": "public/photos/pose2-ch.png",
         "key": "pose-laptop",
-        "label": "Laptop (Impact / Experience)",
+        "label": "Laptop (Impact)",
         "halo_color": (61, 90, 254), # Cobalt #3D5AFE
+    },
+    {
+        "source": "public/photos/pose-experience-raw.jpg",
+        "key": "pose-experience",
+        "label": "Experience (Track Record / Systems)",
+        "halo_color": (255, 91, 46), # Tomato #FF5B2E
+    },
+    {
+        "source": "public/photos/pose6-ch.png",
+        "key": "pose-projects",
+        "label": "Projects (Selected Systems / Pen to Temple)",
+        "halo_color": (124, 227, 181), # Mint #7CE3B5
     },
     {
         "source": "public/photos/pose3-ch.png",
@@ -33,10 +45,16 @@ POSES = [
         "halo_color": (255, 216, 74), # Butter #FFD84A
     },
     {
+        "source": "public/photos/pose-about-raw.jpg",
+        "key": "pose-about",
+        "label": "About (Foundation / Story)",
+        "halo_color": (139, 92, 255), # Violet #8B5CFF
+    },
+    {
         "source": "public/photos/pose4-ch.png",
         "key": "pose-present",
-        "label": "Present (Projects / Credentials)",
-        "halo_color": (124, 227, 181), # Mint #7CE3B5
+        "label": "Present (Credentials)",
+        "halo_color": (217, 179, 106), # Gold #D9B36A
     },
     {
         "source": "public/photos/pose5-ch.png",

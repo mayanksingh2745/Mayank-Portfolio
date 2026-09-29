@@ -93,11 +93,12 @@ export const AvatarStage: React.FC<AvatarStageProps> = ({
               >
                 <div className="relative w-full h-full flex items-end justify-center">
                   <Image
-                    src={`/avatar/${key}.webp`}
+                    src={`/avatar/${key}.webp?v=projects_v2`}
                     alt="Mayank Singh"
                     width={1050}
                     height={1400}
-                    priority={key === "pose-portrait"}
+                    priority={key === "pose-portrait" || key === "pose-projects"}
+                    unoptimized
                     className="w-auto h-full max-h-full object-contain object-bottom select-none pointer-events-none"
                     sizes="(max-width: 768px) 90vw, (max-width: 1200px) 50vw, 42vw"
                   />
